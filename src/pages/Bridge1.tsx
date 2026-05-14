@@ -44,7 +44,7 @@ export default function Bridge1() {
           <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-70">
             Пеший маршрут
           </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl tracking-tight mb-6 font-bold">
             МОСТЫ<br />ТОМСКА
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed">
