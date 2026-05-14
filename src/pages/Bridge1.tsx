@@ -5,6 +5,8 @@ import BridgeIntro from "@/components/bridge1/BridgeIntro";
 import RailwayBridgeContent from "@/components/bridge1/RailwayBridgeContent";
 import CommunalBridgeHero from "@/components/bridge1/CommunalBridgeHero";
 import CommunalBridgeContent from "@/components/bridge1/CommunalBridgeContent";
+import MedichkaBridgeHero from "@/components/bridge1/MedichkaBridgeHero";
+import MedichkaBridgeContent from "@/components/bridge1/MedichkaBridgeContent";
 
 export default function Bridge1() {
   const coverContainer = useRef<HTMLDivElement>(null);
@@ -17,6 +19,8 @@ export default function Bridge1() {
       <RailwayBridgeContent />
       <CommunalBridgeHero />
       <CommunalBridgeContent />
+      <MedichkaBridgeHero />
+      <MedichkaBridgeContent />
       <Footer />
     </main>
   );
