@@ -43,11 +43,11 @@ export default function BridgesNav() {
     <AnimatePresence>
       {visible && (
         <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: 20 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.3 }}
-          className="fixed right-4 md:right-6 top-1/2 -translate-y-1/2 z-50"
+          className="fixed right-4 md:right-6 bottom-4 md:bottom-6 z-50"
         >
           <div className="relative flex flex-col items-end gap-3">
             {/* Список */}
