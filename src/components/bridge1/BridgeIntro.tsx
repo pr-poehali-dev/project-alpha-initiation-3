@@ -3,7 +3,7 @@ import { RefObject } from "react";
 import Icon from "@/components/ui/icon";
 
 const stationPhoto = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12-96c2-5d5da99daff2/bucket/1cd2a646-7e18-441a-a24b-c59e7357c60d.png";
-const mainCover = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12-96c2-5d5da99daff2/files/39dcb1f2-0e73-4382-8685-3aca378ed54e.jpg";
+const mainCover = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12-96c2-5d5da99daff2/bucket/6425bd86-778e-4b22-a37b-c17f53cd7c20.jpg";
 
 interface BridgeIntroProps {
   coverContainer: RefObject<HTMLDivElement>;
