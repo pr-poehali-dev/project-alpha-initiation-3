@@ -74,6 +74,7 @@ export default function BridgeIntro({ coverContainer, container }: BridgeIntroPr
       {/* HERO — Мост у Томск-1 */}
       <div
         ref={container}
+        id="bridge-railway"
         className="relative flex items-end h-screen overflow-hidden scroll-mt-0"
       >
         <motion.div style={{ y }} className="absolute inset-0 w-full h-full">

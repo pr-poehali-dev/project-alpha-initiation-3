@@ -2,7 +2,7 @@ const medichkaPhoto = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12-96c2-
 
 export default function MedichkaBridgeHero() {
   return (
-    <div className="relative flex items-end h-screen overflow-hidden">
+    <div id="bridge-medichka" className="relative flex items-end h-screen overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <img
           src={medichkaPhoto}

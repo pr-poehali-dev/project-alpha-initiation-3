@@ -2,7 +2,7 @@ const communalBridgePhoto = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12
 
 export default function CommunalBridgeHero() {
   return (
-    <div className="relative flex items-end h-screen overflow-hidden">
+    <div id="bridge-communal" className="relative flex items-end h-screen overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <img
           src={communalBridgePhoto}

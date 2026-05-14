@@ -11,6 +11,7 @@ import StoneBridgeHero from "@/components/bridge1/StoneBridgeHero";
 import StoneBridgeContent from "@/components/bridge1/StoneBridgeContent";
 import PharmacyBridgeHero from "@/components/bridge1/PharmacyBridgeHero";
 import PharmacyBridgeContent from "@/components/bridge1/PharmacyBridgeContent";
+import BridgesNav from "@/components/bridge1/BridgesNav";
 
 export default function Bridge1() {
   const coverContainer = useRef<HTMLDivElement>(null);
@@ -19,6 +20,7 @@ export default function Bridge1() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
+      <BridgesNav />
       <BridgeIntro coverContainer={coverContainer} container={container} />
       <RailwayBridgeContent />
       <CommunalBridgeHero />
