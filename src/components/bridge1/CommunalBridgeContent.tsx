@@ -1,6 +1,7 @@
 import Icon from "@/components/ui/icon";
 
 const communalBridgePhoto = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12-96c2-5d5da99daff2/bucket/d8002f44-85b5-4442-b429-908254541934.jpg";
+const pontoonBridgePhoto = "https://cdn.poehali.dev/projects/dd5ec458-7358-4f12-96c2-5d5da99daff2/bucket/5f346959-44ba-42ac-91ca-68ab2573420f.jpg";
 
 export default function CommunalBridgeContent() {
   return (
@@ -82,6 +83,18 @@ export default function CommunalBridgeContent() {
               </div>
             ))}
           </div>
+
+          <figure className="my-10 -mx-6 lg:mx-0">
+            <img
+              src={pontoonBridgePhoto}
+              alt="Понтонный мост через Томь в Томске, архивное фото"
+              className="w-full h-auto object-cover grayscale"
+            />
+            <figcaption className="text-sm text-neutral-500 mt-3 px-6 lg:px-0">
+              Понтонный мост через Томь — временная переправа, которая служила городу до открытия Коммунального моста в 1973 году.
+              Фото: pastvu.com / alex korotkoff
+            </figcaption>
+          </figure>
 
           <p className="text-lg leading-relaxed text-neutral-700">
             Эти способы были неудобными, зависели от погоды и времени года.
