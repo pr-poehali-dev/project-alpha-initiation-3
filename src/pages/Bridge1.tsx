@@ -51,17 +51,31 @@ export default function Bridge1() {
             Прогулка сквозь века — история городских переправ,<br className="hidden md:block" />
             от деревянных настилов до железобетонных пролётов
           </p>
-          <div className="mt-10 inline-flex items-center gap-2 text-sm uppercase tracking-[0.3em] opacity-80 animate-pulse">
-            <Icon name="ChevronDown" size={16} />
-            Остановка №1
-          </div>
+          <button
+            onClick={() =>
+              container.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+            }
+            className="group mt-12 inline-flex flex-col items-center gap-3 text-white/90 hover:text-white transition-colors"
+            aria-label="Перейти к мосту"
+          >
+            <span className="text-xs md:text-sm uppercase tracking-[0.3em]">
+              Перейти к мосту
+            </span>
+            <motion.span
+              animate={{ y: [0, 10, 0] }}
+              transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
+              className="flex items-center justify-center w-12 h-12 rounded-full border border-white/60 group-hover:border-white group-hover:bg-white/10 backdrop-blur-sm transition-all"
+            >
+              <Icon name="ArrowDown" size={20} />
+            </motion.span>
+          </button>
         </div>
       </div>
 
       {/* HERO — Мост у Томск-1 */}
       <div
         ref={container}
-        className="relative flex items-end h-screen overflow-hidden"
+        className="relative flex items-end h-screen overflow-hidden scroll-mt-0"
       >
         <motion.div style={{ y }} className="absolute inset-0 w-full h-full">
           <img
