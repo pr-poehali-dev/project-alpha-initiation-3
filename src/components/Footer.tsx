@@ -16,18 +16,6 @@ export default function Footer() {
                 >
                   Мост Дружбы
                 </a>
-                <a
-                  href="#bridges"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Коммунальный мост
-                </a>
-                <a
-                  href="#bridges"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Железнодорожный мост
-                </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Проект</h3>
@@ -37,19 +25,16 @@ export default function Footer() {
                 >
                   История мостов
                 </a>
-                <a
-                  href="#"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  О проекте
-                </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[12vw] sm:text-[11vw] lg:text-[9vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
                 МОСТЫ<br/>ТОМСКА
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Мосты Томска</p>
+              <div className="flex flex-col gap-1 text-white text-sm sm:text-base sm:items-end">
+                <p>Проект разрабатывала Мурза Виктория Витальевна</p>
+                <p className="text-neutral-400">2026 · Мосты Томска</p>
+              </div>
             </div>
           </div>
         </div>
