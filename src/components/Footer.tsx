@@ -33,7 +33,10 @@ export default function Footer() {
               </h1>
               <div className="flex flex-col gap-1 text-white text-sm sm:text-base sm:items-end">
                 <p>Проект разрабатывала Мурза Виктория Витальевна</p>
-                <p className="text-neutral-400">2026 · Мосты Томска</p>
+                <p className="text-neutral-400">Мосты Томска</p>
+                <span className="text-[14vw] sm:text-[12vw] lg:text-[10vw] leading-[0.8] font-bold tracking-tight text-white mt-2">
+                  2026
+                </span>
               </div>
             </div>
           </div>
